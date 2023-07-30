@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codetrain Registration Form</title>
+    <link rel="stylesheet" href="registration-form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div>
+      <form>
+        <header>
+          <div class="blue-line"></div>
+          <div class="registration-header-container">
+            <h2 style="padding: 0 28px 12px 28px;">Codetrain Registration Form</h2>
+            <p style="padding: 0 28px 12px 28px; margin: 0;">There are 3 steps in our application process. Firstly, fill out this enrolment form, and then our admissions team will reach out to you to find out if you are a good fit for the program. If you make it through, we will assist you to get started on the admissions process.</p>
+            <hr />
+            <div class="example-div" style="padding: 15px 28px 15px 28px;">
+              <p>example@gmail.com<span><a href="#">Switch account</a></span></p>
+              <p class="cloud-image"><img src="checkcloud.png" alt="cloud image" class="cloud" /></p>
+            </div>
+            <hr class="rule" />
+            <p class="required-indicator" style="padding: 15px 28px 15px 28px; margin: 0; color: #D93025;">* Indicates required question</p>
+          </div>
+        </header>
+  
+        <div class="input-flex">
+          <p>
+            <label for="email">Email<span style="color: #D93025; padding-left: 4px;">*</span></label>
+          </p>
+          <p>
+            <input type="email" name="email" id="email" required placeholder="Your email" />
+          </p>
+        </div>
+  
+        <div class="input-flex">
+          <p>
+            <label for="fname">Full Name<span style="color: #D93025; padding-left: 4px;">*</span></label>
+          </p>
+          <p>
+            <input type="text" name="fullname" id="fname" required placeholder="Your answer" />
+          </p>
+        </div>
+  
+        <div class="input-flex">
+          <p>
+            <label for="pnumber">Phone Number<span style="color: #D93025; padding-left: 4px;">*</span></label>
+          </p>
+          <p>
+            <input type="tel" name="pnumber" id="pnumber" required placeholder="Your answer" />
+          </p>  
+        </div>
+  
+        <div class="input-flex">
+          <p class="paragraph-next-of-kin" style="line-height: 2em; padding-top: 15px;">
+            <label for="pnumber">Phone Number of next of kin</label>
+          </p>
+          <p class="paragraph-next-of-kin" style="line-height: 1.5em; font-size: 0.95em;">Phone number of someone we can reach out to in case your phone is off or not reachable. Eg, your parent, guardian or sibling, or spouse</p>
+          <p class="paragraph-next-of-kin">
+            <input type="tel" name="pnumber" id="pnumber" required placeholder="Your answer" style="margin-top: 55px;" />
+          </p>
+        </div>
+  
+        <div class="input-flex">
+          <p style="margin-bottom: 0;">Can you pay 60% or more of the full Codetrain fees (GHS6000)<span style="color: #D93025; padding-left: 4px;">*</span></p>
+          <p>
+            <input type="radio" name="paym" id="paym-n" />
+            <label for="paym-n">No</label>
+          </p>
+          <p style="margin: 0; line-height: 1.2em; padding-bottom: 22px;;">
+            <input type="radio" name="paym" id="paym-y" />
+            <label for="paym-y">Yes</label>
+          </p>
+        </div>
+  
+        <div class="input-flex">
+            <p style="margin-bottom: 0;">Please indicate who is going to pay your fees<span style="color: #D93025; padding-left: 4px;">*</span></p>
+          <p style="margin-bottom: 0;">
+            <input type="radio" name="paym" id="paym-your" />
+            <label for="paym-your">Yourself</label>
+          </p>
+          <p style="margin-bottom: 0;">
+            <input type="radio" name="paym" id="paym-spon" />
+            <label for="paym-spon">Parent / Sponsor</label>
+          </p>
+          <p>
+            <input type="radio" name="paym" id="paym-org" />
+            <label for="paym-org">Organization</label>
+          </p>
+        </div>
+  
+        <div class="input-flex">
+          <p>
+            <label for="loc">Location<span style="color: #D93025; padding-left: 4px;">*</span></label>
+          </p>
+          <p>
+            <input type="text" name="loc" id="loc" placeholder="Your answer" />
+          </p>
+        </div>
+  
+        <div class="input-flex">
+          <p>
+            <label for="curr">Current or previous school<span style="color: #D93025; padding-left: 4px;">*</span></label>
+          </p>
+          <p>
+            <input type="text" name="curr" id="curr" placeholder="Your answer" />
+          </p>
+        </div>
+  
+        <div class="input-flex">
+          <p>
+            <label for="join">Why do you want to join Codetrain<span style="color: #D93025; padding-left: 4px;">*</span></label>
+          </p>
+          <p>
+            <input type="text" name="join" id="join" placeholder="Your answer" style="border-bottom: 1px solid #e5e0e0; width: 100%;" />
+          </p>
+        </div>
+  
+        <div class="input-flex">
+          <p>
+            <label for="hear">How did you hear about Codetrain ?<span style="color: #D93025; padding-left: 4px;">*</span></label>
+          </p>
+          <p>
+            <input type="text" name="hear" id="hear" placeholder="Your answer" />
+          </p>
+        </div>
+  
+        <p class="submit-statement">A copy of your responses will be emailed to the address you provided.</p>
+  
+        <div class="flex-container">
+          <p>
+            <input type="submit" value="Submit" />
+          </p>
+          
+         
+          <div class="prog-bar-flex">
+            <span class="prog-bar"></span>
+            <span>Page 1 of 1</span>
+          </div>
+
+
+          <p>
+            <input type="reset" value="Clear form" />
+          </p>
+       </div>
+  
+       <small>Never submit passwords through Google Forms.</small>
+  
+       <div style="text-align: center;">
+        <img class="recaptcha-image" src="recap.png" alt="recaptcha image" />
+        <span style="font-size: 14px; color: #9E9E9E;">reCAPTCHA</span>
+        <p style="margin-top: 0; padding-left: 26px; font-size: 12px; color: #000000A8;"><a style="color: inherit; padding-left: 20px" href="#">Privacy</a> <a style="color: inherit; padding-left: 2px;" href="#">Terms</a></p>
+       </div>
+  
+       <div class="bottom-div">
+        <p>This content is neither created nor endorsed by Google. <a href="#" style="color: inherit;">Report Abuse</a> - <a href="#" style="color: inherit;">Terms of Service</a> - <a href="#" style="color: inherit;">Privacy Policy</a></p>
+        <div class="bottom-flex">
+          <p><img src="goog.svg" alt="google image" /></p>
+          <p class="forms">Forms</p>
+        </div>
+       </div>
+      </form>
+    </div>
+
+    <!-- <p class="progress-bar"></p>
+    <p style="margin-left: -58px;">Page 1 of 1</p> 
+    This is the code for the progress bar, but I have replaced it with the one above to make it a flex-->
+  </body>
+</html>
